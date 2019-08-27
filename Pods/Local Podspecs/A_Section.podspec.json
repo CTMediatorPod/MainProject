@@ -1,0 +1,28 @@
+{
+  "name": "A_Section",
+  "version": "0.0.1",
+  "summary": "业务A组件",
+  "description": "业务A组件化，私有化为pod组件",
+  "homepage": "https://github.com/CTMediatorPod/A_Section",
+  "license": "MIT",
+  "authors": {
+    "Kboy": "yankang_hpu@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/CTMediatorPod/A_Section.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "A_Section/A",
+    "A_Section/A/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "B_Category": [
+
+    ]
+  }
+}

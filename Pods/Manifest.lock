@@ -1,0 +1,36 @@
+PODS:
+  - A_Category (0.0.1):
+    - CTMediator
+  - A_Section (0.0.1):
+    - B_Category
+  - B_Category (0.0.2):
+    - CTMediator
+  - CTMediator (25)
+
+DEPENDENCIES:
+  - A_Category (from `../A_Category`)
+  - A_Section (from `../A_Section`)
+  - B_Category (from `../B_Category`)
+  - CTMediator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  A_Category:
+    :path: "../A_Category"
+  A_Section:
+    :path: "../A_Section"
+  B_Category:
+    :path: "../B_Category"
+
+SPEC CHECKSUMS:
+  A_Category: a612fd37b4c0f41648d4de4b0b62f6e9b8f3f510
+  A_Section: cbd800ecf6538db7ff2394474e146b2be80e5402
+  B_Category: a7e117e5036f0f100c5ee057811ce05b01478deb
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+
+PODFILE CHECKSUM: 4618c6cd17dbf0acf2dc8d0f34de1a05a8e7367a
+
+COCOAPODS: 1.6.1
